@@ -1,0 +1,268 @@
+body
+{
+    margin: 0;
+    padding: 0;
+    font-family:sans-serif;
+}
+
+ul
+{
+    position: fixed;
+    top: 50%;
+    left: 10px;
+    transform: translateY(-50%);
+    margin: 0;
+    padding: 0;
+    z-index: 1;
+}
+ul li
+{
+    list-style: none;
+}
+ul li a
+{
+    display: block;
+    text-decoration: none;
+    height: 10px;
+    background: #fff;
+    width:50px;
+    color: #262626;
+    margin: 15px 0;
+    padding-left: 20px;
+    border-top-right-radius:50px ;
+    border-top-left-radius: 75px;
+    border-bottom-left-radius: 50px;
+    border-bottom-right-radius: 50px ;
+}
+
+ul li a:hover
+{
+    background: white;
+    color: #fff;
+}
+#container
+{
+    width: 100%;
+    height: 100vh;
+    scroll-behavior: smooth;
+    overflow-y: scroll;
+}
+#container div
+{
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+#container div h1
+{
+    position: absolute;
+    top: 5%;
+    transform: translateY(-50%);
+    width: 100%;
+    left: 2%;
+    margin: 0;
+    padding: 0;
+    font-size: 3em;
+    font-weight: 800;
+    color: #fff;
+}
+#container div h3
+{
+    position: absolute;
+    top: 30%;
+    transform: translateY(-50%);
+    width: 100%;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    font-size: 4em;
+    text-shadow: 2px solid black;
+    color: #fff;
+}
+#container div p
+{
+    position: absolute;
+    top: 40%;
+    transform: translateY(-50%);
+    width: 100%;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    font-size: 1em;
+    text-shadow: 2px solid black;
+    color: #fff;
+
+}
+#container div#home
+{
+    background:black;  
+    background-size: cover;
+
+}
+#container #btn1
+{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    text-align: center;
+    left: 37%;
+    margin: 15px;
+    padding: 15px;
+    height: 10%;
+    width: 25%;
+    background-color: blue;
+    font-size: 20px;
+    font-weight: bold;
+    color:white;
+}
+#container #btn2
+{
+    position: absolute;
+    top: 63%;
+    transform: translateY(-50%);
+    text-align: center;
+    left: 37%;
+    margin: 15px;
+    padding: 15px;
+    height: 10%;
+    width: 25%;
+    background-color: white;
+    font-size: 20px;
+    font-weight: bold;
+    color:black;
+}
+#container #p1
+{
+    position: absolute;
+    top: 90%;
+    transform: translateY(-50%);
+    left: 36%;
+    margin: 0;
+    padding: 0;
+    font-size: 20px;
+    color:white;
+}
+#container #p2
+{
+    position: absolute;
+    top: 78%;
+    transform: translateY(-50%);
+    width: 100%;
+    left: 2%;
+    margin: 0;
+    padding: 0;
+    font-size: 1em;
+    text-shadow: 2px solid black;
+    color: #fff;
+
+}
+#container #img1
+{
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    top: 90%;
+    transform: translateY(-50%);
+    left: 95%;
+    margin: 0;
+    padding: 0;
+    
+}
+
+#container #sub1
+{
+    background:rgb(141, 197, 58);
+    background-size: cover;
+
+}
+
+#container div h4
+{
+    position: absolute;
+    top: 55%;
+    transform: translateY(-50%);
+    width: 100%;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    font-size: 4em;
+    text-shadow: 2px solid black;
+    color: #fff;
+}
+#continer #p3
+{
+    position: absolute;
+    top: 100%;
+    transform: translateY(-50%);
+    width: 100%;    
+    margin: 0;
+    padding: 0;
+    font-size: 1em;
+    text-shadow: 2px solid black;
+    color: #fff;
+}
+
+#container #btn3
+{
+    position: absolute;
+    top: 4%;
+    transform: translateY(-50%);
+    left: 83%;
+    margin: 15px;
+    padding: 15px;
+    height: 7%;
+    width: 7%;
+    text-align: center;
+    background-color:red;
+    font-size: 18px;
+    font-weight: bold;
+    color:white;
+    font-weight: bold;
+}
+
+#container #btn4
+{
+    position: absolute;
+    font-weight: bold;
+    top: 4%;
+    transform: translateY(-50%);
+    left: 91%;
+    margin: 15px;
+    padding: 15px;
+    height: 7%;
+    width: 7%;
+    text-align: center;
+    background-color:whitesmoke;
+    font-size: 14px;
+    font-weight: bold;
+    color:red;
+}
+#container div#sub2
+{
+    background:blueviolet;
+    background-size: cover;
+}
+
+#container div h5
+{
+    position: absolute;
+    top: 20%;
+    transform: translateY(-50%);
+    width: 100%;
+    left: 5%;
+    margin: 0;
+    padding: 0;
+    font-size: 3em;
+    text-shadow: 2px solid black;
+    color: #fff;
+}
+#container div#sub3
+{
+    background: blue;
+
+}
+#container div#sub4
+{
+    background:yellow;
+
+}
